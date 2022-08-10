@@ -19,7 +19,7 @@ Environment: Docker / Docker compose
 
 * Make sure there are 3 directories with the names:
   * api
-  * front
+  * frontend
   * doc
 * copy docker-compose.yaml to the newly created directory:
   > cp calendar_doc/docker-compose.yaml .
@@ -47,5 +47,5 @@ Environment: Docker / Docker compose
 - Only ‘Week-View’ supports Drag and Drop
 - Quirky on mobile and small screens
 - Browser back/forward button are not supported
-
+- MongoDB databse is created without indexes 
 
