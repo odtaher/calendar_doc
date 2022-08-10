@@ -39,6 +39,7 @@ Environment: Docker / Docker compose
 * Next / previous period (day, week, month)
 * Avoids event overlapping on create and on drag and drop
 * Not forgetting your view type and date selections - thanks to browser local storage
+* making the browser serve events from its cache when available 
 
 ## Known Issues:
 - The calendar works only in GMT time zone
