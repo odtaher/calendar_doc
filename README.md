@@ -16,6 +16,11 @@ Environment: Docker / Docker compose
   > git clone https://github.com/odtaher/calendar_api
   > 
   > git clone https://github.com/odtaher/calendar_doc 
+
+* Make sure there are 3 directories with the names:
+  * api
+  * front
+  * doc
 * copy docker-compose.yaml to the newly created directory:
   > cp calendar_doc/docker-compose.yaml .
 * Run docker compose 
