@@ -6,6 +6,8 @@ Database: MongoDB
 API: Python 3.9 / Flask
 Frontend: VueJS 3
 Environment: Docker / Docker compose
+Dependencies: Full Calendar, MomentJS
+Styling Packages: Material Design, Tailwind
 
 ## To run
 
@@ -31,22 +33,17 @@ Environment: Docker / Docker compose
 
 
 ## Features:
-* Adding an event: by clicking on the button that appears in a time slot
-* Viewing event info: by clicking on an event
-* Deleting an event: by clicking on an event and then ‘delete’
-* View types: month, week, day
-* Update events by Dragging and dropping ( supported only in week view )
-* Next / previous period (day, week, month)
+* Creating events
+* Updating events 
+* Deleting events
+* Resizing events 
+* Moving events
+* View types: month, week, day, list
 * Avoids event overlapping on create and on drag and drop
+* Avoids past events
 * Not forgetting your view type and date selections - thanks to browser local storage
-* making the browser serve events from its cache when available 
+* User timezone friendly
 
 ## Known Issues:
-- The calendar works only in GMT time zone
-- Week view: switching dates leaves flex-basis left overs, making drag and drop buggy
-- List view is missing
-- Only ‘Week-View’ supports Drag and Drop
-- Quirky on mobile and small screens
-- Browser back/forward button are not supported
-- MongoDB databse is created without indexes 
+- None 
 
